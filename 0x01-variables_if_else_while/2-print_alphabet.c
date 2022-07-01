@@ -5,11 +5,12 @@
  * Return: 0 if ran correctly
  */
 
-int main()
+int main(void)
 {
 	int x;
 
-	for (x=97; x <= 122; x++)
+	for (x = 97; x <= 122; x++)
 		putchar(x);
-	return 0;
+	putchar (\n);
+	return (0);
 }
