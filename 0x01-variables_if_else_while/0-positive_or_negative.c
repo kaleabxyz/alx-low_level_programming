@@ -4,8 +4,9 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/** 
+/**
  * main - positive or negative
+ * Return: 0 if run correctly
  */
 int main(void)
 {
