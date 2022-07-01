@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 
 /**
  * main - print lowercase alphabet followed by uppercase letters
