@@ -6,7 +6,7 @@
  */
 
 int main (void)
-
+{
 	int x;
 
 	int y;
@@ -17,3 +17,4 @@ int main (void)
 		putchar(y)
 	putchar('\n');
 	return (0);
+}
