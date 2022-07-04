@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (y = 48; y <= 57; y++)
 		{
-			if (x != y)
+			if (x != y || x*y != y*x)
 			{
 				putchar(x);
 				putchar(y);
