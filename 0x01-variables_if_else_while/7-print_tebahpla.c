@@ -10,5 +10,6 @@ int main(void)
 
 	for (x = 122; x >= 97; x--)
 		putchar(x);
+	putchar(' ');
 	return (0);
 }
