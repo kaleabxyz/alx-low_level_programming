@@ -11,14 +11,14 @@ int main(void)
 
 	int y;
 
-	for (x = 48; x <= 58; x++)
+	for (x = 47; x <= 57; x++)
 	{
-		for (y = 48; y <= 58; y++)
+		for (y = 48; y <= 57; y++)
 		{
 			if (x != y)
 			{
-		putchar(y);	
 		putchar(x);
+		putchar(y);
 		if (x != 57)
 		{
 		putchar(',');
@@ -26,7 +26,6 @@ int main(void)
 		}
 			}
 		}
-		
 	}
 	putchar('\n');
 	return (0);
