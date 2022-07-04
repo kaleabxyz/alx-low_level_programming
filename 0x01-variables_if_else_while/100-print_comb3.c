@@ -19,7 +19,8 @@ int main(void)
 			{
 				putchar((x % 10) + '0');
 				putchar((y % 10) + '0');
-		if (x < 56 || y < 57)
+		if (digit1 == 8 && digit2 == 9)
+				continue;
 		{
 		putchar(',');
 		putchar(' ');
