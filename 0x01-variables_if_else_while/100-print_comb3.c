@@ -15,10 +15,10 @@ int main(void)
 	{
 		for (y = 48; y <= 57; y++)
 		{
-			if (x != y || x*y != 0 || x*y != 1)
+			if (x != y)
 			{
-				putchar(x);
-				putchar(y);
+				putchar((x % 10) + '0');
+				putchar((y % 10) + '0');
 		if (x < 56 || y < 57)
 		{
 		putchar(',');
