@@ -4,13 +4,14 @@
  *Return: 0 if succesfull
  */
 
-void reset_to_98(void)
+void reset_to_98()
 {
 	int n;
+	int *p;
 
 	n = 402;
 
-	int *p;
+	
 
 	
 	*p = &n;
