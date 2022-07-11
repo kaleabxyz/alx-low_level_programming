@@ -1,7 +1,7 @@
 #include "HEADER.h"
 /**
  *reset_to_98 - main function
- *Return: 0 if succesfull
+ *n: pointer
  */
 
 void reset_to_98(int *n)
