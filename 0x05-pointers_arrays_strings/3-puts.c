@@ -1,5 +1,5 @@
 #include "HEADER.h"
-
+#include <stdio.h>
 /**
  * _puts - print a string
  * @str: variable
