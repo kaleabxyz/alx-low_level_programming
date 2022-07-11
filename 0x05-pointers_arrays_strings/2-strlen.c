@@ -1,4 +1,4 @@
-#include "HEADER.H"
+#include "HEADER.h"
 
 /**
  * _strlen - return the length of a string
