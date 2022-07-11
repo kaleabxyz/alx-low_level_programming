@@ -10,10 +10,10 @@ void reset_to_98(void)
 
 	n = 402;
 
-	int *n;
+	int *p;
 
 	
-	*n = &n;
-	*n = 98;
+	*p = &n;
+	*p = 98;
 	return (0);
 }
