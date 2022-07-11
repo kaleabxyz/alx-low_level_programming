@@ -4,7 +4,7 @@
  * _puts - print a string
  * @str: variable
  */
-void _puts(char *char)
+void _puts(char *str)
 {
 	int n;
 
