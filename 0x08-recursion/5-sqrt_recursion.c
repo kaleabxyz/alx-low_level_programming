@@ -7,7 +7,7 @@
  *
  * Return: square root of @n or -1
 */
-int _sqrt_recursion_wrapper(long int n,long int min,long int max)
+int _sqrt_recursion_wrapper(long int n, long int min, long int max)
 {
 	long int guess, guess_squared;
 
